@@ -10,3 +10,8 @@ spring:
       schema-locations: classpath:org/springframework/batch/core/schema-mysql.sql
 #      mode: always
       mode: never
+
+
+#  batch:
+#    job:
+#      enabled: true   #false表示不启动
